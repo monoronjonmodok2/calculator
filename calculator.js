@@ -11,8 +11,8 @@
 function sum(){
 var number1= document.getElementById("num1");
 var number2= document.getElementById("num2");
-var numInput1 = parseInt(number1.value);
-var numInput2 = parseInt(number2.value);
+var numInput1 = parseFloat(number1.value);
+var numInput2 = parseFloat(number2.value);
 document.getElementById("result").innerHTML =  numInput1 + numInput2 ;
 
 
@@ -21,16 +21,16 @@ document.getElementById("result").innerHTML =  numInput1 + numInput2 ;
 function add(){
     var number1= document.getElementById("num1");
 var number2= document.getElementById("num2");
-var numInput1 = parseInt(number1.value);
-var numInput2 = parseInt(number2.value);
+var numInput1 = parseFloat(number1.value);
+var numInput2 = parseFloat(number2.value);
 document.getElementById("result").innerHTML =  numInput1 - numInput2 ;
 }
 
 function multi(){
     var number1= document.getElementById("num1");
     var number2= document.getElementById("num2");
-    var numInput1 = parseInt(number1.value);
-    var numInput2 = parseInt(number2.value);
+    var numInput1 = parseFloat(number1.value);
+    var numInput2 = parseFloat(number2.value);
     document.getElementById("result").innerHTML =  numInput1 * numInput2 ;
 }
 
