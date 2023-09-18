@@ -41,3 +41,8 @@ function dive(){
     var numinput2 = number2.value;
     document.getElementById("result").innerHTML= numInput1/numinput2;
 }
+
+function resetInput(){
+    var form = document.getElementById("myform")
+    form.reset();
+}

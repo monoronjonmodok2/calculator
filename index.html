@@ -18,24 +18,36 @@
         width: 10%;
         height: 2rem;
     }
+    .operator>input{
+        width: 50px;
+        height: 30;
+
+    }
 </style>
+
 <body>
    
-       <div>
+    <form id="myform">
         <input type="number" name="" id="num1" placeholder="input number 1">
         <input type="number" name="" id="num2" placeholder="input number 2">
+        
        </div>
-     <br> 
+     <form> 
+        <br>
     
     <div class="operator">
         <input type="button" onclick="sum()"  id="sum" value="+">
         <input type="button" id="addition" value="-" onclick="add()">
         <input type="button" id="multi" onclick="multi()" value="*">
         <input type="button" id="subs" onclick=" dive()" value="/">
+        <input type="reset" onclick="resetInput()">
+        
+       
+        
     </div>
     <br>
      
-     <div class="result" id="result"></div>
+     <div class="result" id="result" >show output</div>
      
      <script src="calculator.js">
 
