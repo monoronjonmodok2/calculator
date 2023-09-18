@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clculator</title>
+
+</head>
+
+<style>
+    #number{
+
+    }
+    .result{
+        color: black;
+        background-color: azure;
+        border: 1px solid red;
+        width: 10%;
+        height: 2rem;
+    }
+</style>
+<body>
+   
+       <div>
+        <input type="number" name="" id="num1" placeholder="input number 1">
+        <input type="number" name="" id="num2" placeholder="input number 2">
+       </div>
+     <br> 
+    
+    <div class="operator">
+        <input type="button" onclick="sum()"  id="sum" value="+">
+        <input type="button" id="addition" value="-" onclick="add()">
+        <input type="button" id="multi" onclick="multi()" value="*">
+        <input type="button" id="subs" onclick=" dive()" value="/">
+    </div>
+    <br>
+     
+     <div class="result" id="result"></div>
+     
+     <script src="calculator.js">
+
+     </script>
+</body>
+</html>
